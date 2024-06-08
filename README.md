@@ -1,6 +1,6 @@
 # Julia Tyulkina - Photographer
 
-Welcome to the portfolio of Julia Tyulkina, a passionate photographer and videographer based in Vinnitsa. Explore my work, learn more about my services, and get in touch for a photoshoot or video session.
+Welcome to the portfolio of Julia Tyulkina, a passionate photographer and videographer based in Vinnitsa.
 
 ## Table of Contents
 
