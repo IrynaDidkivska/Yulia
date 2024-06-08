@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Yummy Pug: A website dedicated to all things sweet!"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/images/Logo.svg"
+      content="Julia Tyulkina - Photographer and Videographer from Vinnitsa. Specializing in natural, warm, and emotional photography. Offering professional photoshoots and video shooting services."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo.svg"
+      type="image/x-icon"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
@@ -27,158 +26,280 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <meta name="keywords" content="sweet, pug, desserts, candy, chocolate" />
-    <meta name="author" content="Yummy Pug" />
-    <title>YummyPug</title>
+    <title>Julia Tyulkina - Photographer</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container header-wrapper">
-        <a href="/" aria-label="Home"
-          ><img
-            src="./assets/images/Logo.svg"
-            alt="Logo of Yummy Pug"
-            width="79"
-            height="79"
-        /></a>
-        <nav>
-          <ul class="nav-list">
-            <li>
-              <a href="#advice">Порада від Ямі</a>
-            </li>
-            <li>
-              <a href="#favourite">Мої улюбленній солодощі</a>
-            </li>
-          </ul>
+    <header>
+      <div class="container header">
+        <a
+          href="/"
+          class="logo"
+          aria-label="Home Page - Julia Tyulkina Photography"
+        >
+          <svg width="109" height="84">
+            <use href="./assets/images/Logo.svg#logo" class="logo-icon"></use>
+          </svg>
+        </a>
+        <nav class="nav">
+          <a href="#about" class="nav-link">About me</a>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#price" class="nav-link">Price</a>
+          <a href="#book" class="nav-link">Book with Yulia</a>
         </nav>
+        <a href="tel:+380961195404" aria-label="Phone number" class="nav-tel"
+          >+380 (96) 119 54 04
+        </a>
       </div>
     </header>
     <main>
-      <section aria-label="hero">
-        <div class="container hero">
-          <div class="hero-wrapper">
-            <h1 class="hero-title"><span>YUMMY</span> PUG</h1>
-            <p class="hero-text">
-              Всім привіт, я Ямі і я мопс, який дуже сильно полюбляє солодощі.
-              Сьогодні я розкажу вам, чому саме солодощі і чому вони так важливі
-              в нашому житті. <br />Доречі, моє ім&apos;я з англійської мови
-              перекладається як &quot;Смачний&quot;.
-            </p>
-            <button type="button" class="hero-button">
-              Мої улюбленні солодощі
+      <section class="hero">
+        <div class="container hero-wrapper">
+          <div class="hero-content">
+            <h1 class="hero-title">Julia<br />Tyulkina</h1>
+            <p class="hero-text">photographer / videographer</p>
+            <button type="button" class="button">
+              Sign up for a photosession
             </button>
           </div>
-          <div class="hero-img"></div>
+          <picture>
+            <source
+              srcset="
+                ./assets/images/hero.webp    1x,
+                ./assets/images/hero@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="./assets/images/hero@2x.jpeg 2x"
+              type="image/jpeg"
+            />
+            <img
+              class="hero-image"
+              src="./assets/images/hero.jpeg"
+              alt="Screens"
+              width="674"
+              height="677"
+            />
+          </picture>
         </div>
       </section>
-      <section id="favourite" class="favourite" aria-label="favourite">
+      <section id="about" class="about">
         <div class="container">
-          <h2 class="favourite-title"><span>мої улюбленні</span> солодощі</h2>
-          <ul class="favourite-list">
-            <li class="favourite-item">
-              <picture>
-                <source type="image/webp" srcset="./assets/images/poppy.webp" />
-                <img
-                  src="./assets/images/poppy.png"
-                  alt="Candy Red Poppy"
-                  class="favourite-img"
-                />
-              </picture>
-              <h3 class="favourite-subtitle">Червоний мак</h3>
-              <p class="favourite-text">
-                Пралене з додаванням карамельної крихти, пасти ядер горіхів
-                фундука та мигдалюпокрите шоколадною глазур&apos;ю
+          <h2 class="section-title">About me</h2>
+          <div class="about-wrapper">
+            <figure class="about-left">
+              <img
+                src="./assets/images/about_me_left.jpeg"
+                alt="Screens"
+                width="278"
+                height="371"
+                class="about-left-img"
+              />
+              <figcaption class="figcaption">Julia Tyulkina</figcaption>
+            </figure>
+            <div class="about-intro-text-block">
+              <h3 class="about-subtitle">
+                Hi! My name is Yulia, Photographer from Vinnitsa
+              </h3>
+              <p class="about-text">
+                I have been doing photography for over 2 years. I love lively,
+                natural, warm and emotional shots. I can work with tools such as
+                Photoshop, Lightroom. <br />
+                <br />Photography for me is a way to show the beautiful in
+                simplicity, that is, to open the curtain of the elegant and
+                unobtrusive. Video shooting is something especially valuable,
+                because you can capture a moment forever and at the same time
+                leave a mark on history.
               </p>
-            </li>
-            <li class="favourite-item">
-              <picture>
-                <source type="image/webp" srcset="./assets/images/lazy.webp" />
-                <img
-                  src="./assets/images/lazy.png"
-                  alt="Candy cream lazy"
-                  class="favourite-img"
-                />
-              </picture>
-              <h3 class="favourite-subtitle">Сливки-ленивки</h3>
-              <p class="favourite-text">
-                Світлі вафельні листи, поєднані молочно-вершковою начинкою та
-                покриті глазур&apos;ю.
-              </p>
-            </li>
-            <li class="favourite-item">
-              <picture>
-                <source
-                  type="image/webp"
-                  srcset="./assets/images/lysine.webp"
-                />
-                <img
-                  src="./assets/images/lysine.png"
-                  alt="Candy Hazlenut lysine"
-                  class="favourite-img"
-                />
-              </picture>
-              <h3 class="favourite-subtitle">Ліщина</h3>
-              <p class="favourite-text">
-                Праліне з додаванням подрібненої та тертої ліщини та мигдалю,
-                покрите шоколадною глазур&apos;ю.
-              </p>
-            </li>
-          </ul>
+              <div class="about-right-box">
+                <picture class="about-right">
+                  <source
+                    srcset="
+                      ./assets/images/about_me_right.webp    1x,
+                      ./assets/images/about_me_right@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="./assets/images/about_me_right@2x.jpeg 2x"
+                    type="image/jpeg"
+                  />
+                  <img
+                    src="./assets/images/about_me_right.jpeg"
+                    alt="Screens"
+                    width="642"
+                    height="268"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
-      <section id="advice" aria-label="advice">
-        <div class="container advice-wrapper">
-          <div class="advice-text-wrapper">
-            <h2 class="advice-title"><span>Порада &dash; </span>від Yummy</h2>
-            <p>
-              З'ївши чергову шоколадку, ви не просто набираєте трохи додаткових
-              калорій, але покращуєте тим самим роботу мозку, настрій і стаєте
-              трішки добрішим. Вирішивши поласувати шоколадкою, віддавайте
-              перевагу саме чорному шоколаду з високим вмістом какао-бобів. У
-              цьому вигляді шоколаду менше жиру і цукру, ніж в молочному
-              шоколаді, але зате магнію, кальцію, заліза, білка, антиоксидантів
-              і вітамінів предостатньо.
-            </p>
-            <p class="advice-subtitle">Солодощі, які радить їсти Ямі:</p>
-            <ul class="advice-list">
-              <li>
-                <p>Чорний шоколад</p>
-              </li>
-              <li>
-                <p>Зефір</p>
-              </li>
-              <li>
-                <p>Пастила</p>
-              </li>
-              <li>
-                <p>Мармелад</p>
-              </li>
-              <li>
-                <p>Мед</p>
-              </li>
-              <li>
-                <p>Халва</p>
-              </li>
-              <li>
-                <p>Цукати</p>
-              </li>
-            </ul>
+      <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2 class="section-title">Portfolio</h2>
+          <div class="portfolio-wrapper">
+            <div>
+              <div class="portfolio-img left"></div>
+              <p class="card-subtitle">Warm photos at home</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit.
+              </p>
+              <button type="button" class="button portfolio-btn">
+                All photos
+              </button>
+            </div>
+            <div>
+              <div class="portfolio-img midl"></div>
+              <p class="card-subtitle">Morning video shooting</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit. Integer <br />sagittis, natoque
+                amet at hendrerit <br />consectetur rhoncus.
+              </p>
+              <button type="button" class="button portfolio-btn">
+                All photos
+              </button>
+            </div>
+            <div>
+              <div class="portfolio-img right"></div>
+              <p class="card-subtitle">Photoshoot with flowers</p>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet,<br />
+                consectetur adipiscing elit. Integer <br />
+                sagittis, natoque amet.
+              </p>
+              <button type="button" class="button portfolio-btn">
+                All photos
+              </button>
+            </div>
           </div>
+        </div>
+      </section>
+      <section id="price" class="price">
+        <div class="container">
+          <h2 class="section-title price-title">Price</h2>
+          <div class="price-wrapper">
+            <div class="price-card">
+              <div class="card-img left"></div>
+              <div class="photoshoot-section">
+                <h2 class="price-card-title">Photoshoot</h2>
+                <div class="price-text-wrapper">
+                  <p class="price-text">
+                    Duration
+                    <span class="price-text-accent">1 hour</span>
+                  </p>
 
-          <div class="advice-img"></div>
+                  <p class="price-text">
+                    Photo processing time
+                    <span class="price-text-accent">5 days</span>
+                  </p>
+
+                  <p class="price-text">
+                    Number of photos
+                    <span class="price-text-accent">20 pieces</span>
+                  </p>
+                </div>
+                <div class="order-wrapper">
+                  <span class="price-heading">200 UAH</span>
+                  <button type="button" class="button price-btn">
+                    Order now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="price-card">
+              <div class="card-img right"></div>
+              <div class="photoshoot-section">
+                <h2 class="price-card-title">Video shooting</h2>
+                <div class="price-text-wrapper">
+                  <p class="price-text">
+                    Duration
+                    <span class="price-text-accent">1 hour</span>
+                  </p>
+
+                  <p class="price-text">
+                    Video processing time
+                    <span class="price-text-accent">5 days</span>
+                  </p>
+
+                  <p class="price-text">
+                    Number of photos
+                    <span class="price-text-accent">20 pieces</span>
+                  </p>
+                </div>
+                <div class="order-wrapper">
+                  <span class="price-heading">200 UAH</span>
+                  <button type="button" class="button price-btn">
+                    Order now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="book" class="book">
+        <div class="container">
+          <h2 class="section-title">Book with Yulia</h2>
+          <div class="book-wrapper">
+            <div class="book-img-left"></div>
+            <div class="book-img-right"></div>
+            <form action="submited" method="post" class="form">
+              <input placeholder="Имя ..." type="text" class="input" />
+              <input placeholder="E-mail ..." type="text" class="input" />
+              <textarea class="textarea" placeholder="Сообщение ..."></textarea>
+              <button type="submit" class="button">Send</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <div class="container footer-wrapper">
-        <a href="/"
-          ><img
-            src="./assets/images/Logo.svg"
-            alt="Logo of Yummy Pug"
-            width="79"
-            height="79"
-        /></a>
-        <p>Приєднуйся і живи зі мною у світі солодощів!</p>
+      <div class="container footer">
+        <a
+          href="/"
+          class="logo"
+          aria-label="Home Page - Julia Tyulkina Photography"
+        >
+          <svg width="113" height="84">
+            <use href="./assets/images/Logo.svg#logo" class="logo-icon"></use>
+          </svg>
+        </a>
+        <address class="address">
+          <a href="#" class="icon" aria-label="Write me on Instagram">
+            <svg width="30" height="30">
+              <use
+                href="./assets/images/instagram.svg#instagram"
+                class="soc-icon"
+              ></use>
+            </svg>
+          </a>
+          <a href="#" class="icon" aria-label="Write me on Facebook">
+            <svg width="30" height="30">
+              <use
+                href="./assets/images/facebook.svg#facebook"
+                class="soc-icon"
+              ></use>
+            </svg>
+          </a>
+          <a href="#" class="icon" aria-label="Send Email">
+            <svg width="30" height="30">
+              <use
+                href="./assets/images/email.svg#email"
+                class="soc-icon"
+              ></use>
+            </svg>
+          </a>
+          <a
+            href="tel:+380961195404"
+            aria-label="Phone number"
+            class="phone_number"
+            >+380 (96) 119 54 04
+          </a>
+        </address>
       </div>
     </footer>
   </body>

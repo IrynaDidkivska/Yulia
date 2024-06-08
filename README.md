@@ -1,26 +1,14 @@
-# Yummy Pug
+# Julia Tyulkina - Photographer
 
-Welcome to Yummy Pug, a website dedicated to all things sweet! Discover delightful treats and gain insightful advice on the best sweets to enjoy.
+Welcome to the portfolio of Julia Tyulkina, a passionate photographer and videographer based in Vinnitsa. Explore my work, learn more about my services, and get in touch for a photoshoot or video session.
 
 ## Table of Contents
 
-- [Yummy Pug](#yummy-pug)
+- [Julia Tyulkina - Photographer](#julia-tyulkina---photographer)
   - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Getting Started](#getting-started)
     - [Installation](#installation)
-
-## Description
-
-Yummy Pug is a fun and informative website featuring a lovable pug named Yummy who shares his love for sweets. The site includes sections on favorite sweets and useful advice on healthy sweet consumption.
-
-## Features
-
-- **Responsive Design**: Looks great on both desktop and mobile devices.
-- **Favorite Sweets Section**: Showcases various sweets with images and descriptions.
-- **Advice Section**: Provides tips on consuming sweets healthily.
 
 ## Technologies Used
 
@@ -37,7 +25,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/IrynaDidkivska/YummyPug.git
+   git clone https://github.com/IrynaDidkivska/Yulia
    ```
 2. Navigate to the project directory:
    ```bash
